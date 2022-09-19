@@ -1,5 +1,5 @@
 # 2021-convex-hw
 
-1. use the Newton's method to solve an unconstrained optimization problem.
+1. Use the Newton's method to solve an unconstrained optimization problem.
 
-2. apply the barrier method to solve a QCQP problem.
+2. Apply the barrier method to solve a QCQP problem.
