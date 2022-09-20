@@ -1,15 +1,20 @@
 clear; 
 
 % initial point
-x = [0;0;10];
+x = [0; 0; 10];
+
 % intial t
 t = 1;
+
 % Newton interation
 l = 0;
+
 % Outer loop update
-mu = 20;
+mu = 20000;
+
 % Stopping criterion
 SC_inner = 10^(-5); SC_outer = 10^(-8);
+
 % Backtracking line search
 alpha = 0.1; beta = 0.7;
 
@@ -63,7 +68,8 @@ while 1
         x = x + s * delta_x;
         l = l + 1;
     end
-    
+    mt = m/t
+    l
     if m/t < SC_outer
         break
     end
