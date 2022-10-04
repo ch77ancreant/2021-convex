@@ -1,4 +1,4 @@
-# 2021-convex-hw
+# 2021-convex (convex optimization)
 
 1. Use the Newton's method to solve an unconstrained optimization problem.
 
